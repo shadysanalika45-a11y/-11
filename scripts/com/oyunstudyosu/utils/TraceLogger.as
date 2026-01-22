@@ -8,6 +8,7 @@ package com.oyunstudyosu.utils
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;
 	import com.oyunstudyosu.utils.DeepSerializer;
+	import com.oyunstudyosu.utils.TraceRecord;
 
 	/**
 	 * TraceLogger - NON-LOSSY END-TO-END TRACE SYSTEM
