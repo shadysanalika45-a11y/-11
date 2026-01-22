@@ -1,0 +1,39 @@
+package org.osflash.signals.natives.sets
+{
+   import flash.events.AsyncErrorEvent;
+   import flash.events.IOErrorEvent;
+   import flash.events.NetStatusEvent;
+   import flash.events.SecurityErrorEvent;
+   import flash.net.NetConnection;
+   import org.osflash.signals.natives.NativeSignal;
+   
+   public class NetConnectionSignalSet extends EventDispatcherSignalSet
+   {
+      
+      public function NetConnectionSignalSet(param1:NetConnection)
+      {
+         super(param1);
+      }
+      
+      public function get asyncError() : NativeSignal
+      {
+         return getNativeSignal(AsyncErrorEvent.ASYNC_ERROR,AsyncErrorEvent);
+      }
+      
+      public function get ioError() : NativeSignal
+      {
+         return getNativeSignal(IOErrorEvent.IO_ERROR,IOErrorEvent);
+      }
+      
+      public function get netStatus() : NativeSignal
+      {
+         return getNativeSignal(NetStatusEvent.NET_STATUS,NetStatusEvent);
+      }
+      
+      public function get securityError() : NativeSignal
+      {
+         return getNativeSignal(SecurityErrorEvent.SECURITY_ERROR,SecurityErrorEvent);
+      }
+   }
+}
+
