@@ -1,4 +1,4 @@
-package com.oyunstudyosu.trace
+package com.oyunstudyosu.utils
 {
 	/**
 	 * TraceRecord - Structure for a single trace event

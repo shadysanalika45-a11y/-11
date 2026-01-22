@@ -1,7 +1,7 @@
-package com.oyunstudyosu.trace.interceptors
+package com.oyunstudyosu.service
 {
 	import com.oyunstudyosu.service.ServiceModel;
-	import com.oyunstudyosu.trace.TraceLogger;
+	import com.oyunstudyosu.utils.TraceLogger;
 	import com.smartfoxserver.v2.entities.data.ISFSObject;
 	import com.smartfoxserver.v2.core.SFSEvent;
 

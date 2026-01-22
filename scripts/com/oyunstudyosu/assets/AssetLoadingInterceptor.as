@@ -1,8 +1,8 @@
-package com.oyunstudyosu.trace.interceptors
+package com.oyunstudyosu.assets
 {
 	import com.oyunstudyosu.assets.AssetModel;
 	import com.oyunstudyosu.assets.AssetRequest;
-	import com.oyunstudyosu.trace.TraceLogger;
+	import com.oyunstudyosu.utils.TraceLogger;
 	import flash.display.Loader;
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;

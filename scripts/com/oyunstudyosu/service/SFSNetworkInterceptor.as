@@ -1,4 +1,4 @@
-package com.oyunstudyosu.trace.interceptors
+package com.oyunstudyosu.service
 {
 	import com.smartfoxserver.v2.SmartFox;
 	import com.smartfoxserver.v2.requests.IRequest;
@@ -7,8 +7,8 @@ package com.oyunstudyosu.trace.interceptors
 	import com.smartfoxserver.v2.entities.data.ISFSArray;
 	import flash.utils.ByteArray;
 	import flash.events.Event;
-	import com.oyunstudyosu.trace.TraceLogger;
-	import com.oyunstudyosu.trace.serializers.DeepSerializer;
+	import com.oyunstudyosu.utils.TraceLogger;
+	import com.oyunstudyosu.utils.DeepSerializer;
 
 	/**
 	 * SFSNetworkInterceptor - Intercepts ALL SFS2X network traffic

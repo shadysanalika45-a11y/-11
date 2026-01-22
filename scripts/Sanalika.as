@@ -8,7 +8,7 @@ package
    import com.junkbyte.console.Cc;
    import com.oyunstudyosu.achievement.AchievementController;
    import com.oyunstudyosu.achievement.AchievementModel;
-   import com.oyunstudyosu.trace.TraceManager;
+   import com.oyunstudyosu.utils.TraceManager;
    import com.oyunstudyosu.alert.AlertEvent;
    import com.oyunstudyosu.alert.AlertModel;
    import com.oyunstudyosu.alert.AlertVo;

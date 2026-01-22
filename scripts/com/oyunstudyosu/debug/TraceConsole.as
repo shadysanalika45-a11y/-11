@@ -1,4 +1,4 @@
-package com.oyunstudyosu.trace.ui
+package com.oyunstudyosu.debug
 {
 	import flash.display.Sprite;
 	import flash.text.TextField;
@@ -9,8 +9,8 @@ package com.oyunstudyosu.trace.ui
 	import flash.ui.Keyboard;
 	import flash.desktop.NativeApplication;
 	import flash.filesystem.File;
-	import com.oyunstudyosu.trace.TraceLogger;
-	import com.oyunstudyosu.trace.TraceRecord;
+	import com.oyunstudyosu.utils.TraceLogger;
+	import com.oyunstudyosu.utils.TraceRecord;
 
 	/**
 	 * TraceConsole - UI viewer for trace events

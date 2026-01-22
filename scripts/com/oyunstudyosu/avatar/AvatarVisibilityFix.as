@@ -1,8 +1,8 @@
-package com.oyunstudyosu.trace.fixes
+package com.oyunstudyosu.avatar
 {
 	import com.oyunstudyosu.avatar.AvatarModel;
 	import com.oyunstudyosu.cloth.ClothModel;
-	import com.oyunstudyosu.trace.TraceManager;
+	import com.oyunstudyosu.utils.TraceManager;
 
 	/**
 	 * AvatarVisibilityFix - Ensures all avatar layers are visible

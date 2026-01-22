@@ -1,4 +1,4 @@
-package com.oyunstudyosu.trace.serializers
+package com.oyunstudyosu.utils
 {
 	import flash.utils.ByteArray;
 	import flash.utils.Dictionary;

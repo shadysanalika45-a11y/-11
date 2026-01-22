@@ -1,4 +1,4 @@
-package com.oyunstudyosu.trace
+package com.oyunstudyosu.utils
 {
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
@@ -7,7 +7,7 @@ package com.oyunstudyosu.trace
 	import flash.utils.getTimer;
 	import flash.events.Event;
 	import flash.events.IOErrorEvent;
-	import com.oyunstudyosu.trace.serializers.DeepSerializer;
+	import com.oyunstudyosu.utils.DeepSerializer;
 
 	/**
 	 * TraceLogger - NON-LOSSY END-TO-END TRACE SYSTEM

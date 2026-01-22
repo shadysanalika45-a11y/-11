@@ -1,6 +1,6 @@
-package com.oyunstudyosu.trace.interceptors
+package com.oyunstudyosu.avatar
 {
-	import com.oyunstudyosu.trace.TraceLogger;
+	import com.oyunstudyosu.utils.TraceLogger;
 
 	/**
 	 * AvatarCheckpoints - Explicit avatar/clothes rendering checkpoints
